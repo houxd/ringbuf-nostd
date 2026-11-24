@@ -2,6 +2,12 @@
 name = "ringbuf-nostd"
 version = "0.1.0"
 edition = "2024"
+description = "A no-std ring buffer implementation."
+license = "MIT"
+repository = "https://github.com/houxd/ringbuf-nostd"
+keywords = ["embedded", "mcu", "no-std"]
+categories = ["no-std"]
+authors = ["houxd.g@gmail.com"]
 
 [dependencies]
 portable-atomic = { version = "1", default-features = false }
